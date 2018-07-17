@@ -13,7 +13,7 @@ No configuration, so expect a lot of hardcoding for testing.
 - Probably poor program design
 
 ## Controls
-- W,A,S,D: Move
+- ↑, ↓, ←, → : Move
 - Z: Shoot
 - Shift: Slow down
 - Tab: Open/Close debug window

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import me.ryan_clark.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+
+<Pane fx:controller="me.ryan_clark.gui.GuiController"
+	xmlns:fx="http://javafx.com/fxml">
+
+	<Group id="MainWindow">
+		<children>
+			<ImageView layoutX="10" layoutY="10">
+				<image>
+					<Image url="@../images/border.png" />
+				</image>
+			</ImageView>
+			<Pane fx:id="mainMenuPanel" layoutX="20" layoutY="20" />
+			<Pane fx:id="gamePanel" layoutX="20" layoutY="20" />
+		</children>
+	</Group>
+
+	<Group id="SideWindow">
+		<children>
+			<ImageView layoutX="440" layoutY="10">
+				<image>
+					<Image url="@../images/border2.png" />
+				</image>
+			</ImageView>
+			<Pane fx:id="scorePanel" layoutX="450" layoutY="20" />
+		</children>
+	</Group>
+
+	<stylesheets>
+		<URL value="@window_style.css" />
+	</stylesheets>
+</Pane>
